@@ -41,7 +41,7 @@
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Scene/Model/CustomShaderMode.js#L9">engine/Source/Scene/Model/CustomShaderMode.js 9</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Scene/Model/CustomShaderMode.js#L9">engine/Source/Scene/Model/CustomShaderMode.js 9</a>
 </div>
 
 
@@ -192,7 +192,7 @@ to optimize out the material processing code.</td>
     
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Scene/Model/CustomShaderMode.js#L17">engine/Source/Scene/Model/CustomShaderMode.js 17</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Scene/Model/CustomShaderMode.js#L17">engine/Source/Scene/Model/CustomShaderMode.js 17</a>
 </div>
 
 
@@ -256,7 +256,7 @@ before lighting is applied.
     
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Scene/Model/CustomShaderMode.js#L25">engine/Source/Scene/Model/CustomShaderMode.js 25</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Scene/Model/CustomShaderMode.js#L25">engine/Source/Scene/Model/CustomShaderMode.js 25</a>
 </div>
 
 

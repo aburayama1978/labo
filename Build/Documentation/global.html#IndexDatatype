@@ -41,7 +41,7 @@
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L12">engine/Source/Core/IndexDatatype.js 12</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L12">engine/Source/Core/IndexDatatype.js 12</a>
 </div>
 
 
@@ -209,7 +209,7 @@ of an element in <code>Uint32Array</code>.</td>
     
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L20">engine/Source/Core/IndexDatatype.js 20</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L20">engine/Source/Core/IndexDatatype.js 20</a>
 </div>
 
 
@@ -273,7 +273,7 @@ of an element in <code>Uint8Array</code>.
     
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L38">engine/Source/Core/IndexDatatype.js 38</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L38">engine/Source/Core/IndexDatatype.js 38</a>
 </div>
 
 
@@ -337,7 +337,7 @@ of an element in <code>Uint32Array</code>.
     
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L29">engine/Source/Core/IndexDatatype.js 29</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L29">engine/Source/Core/IndexDatatype.js 29</a>
 </div>
 
 
@@ -407,7 +407,7 @@ of an element in <code>Uint16Array</code>.
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L122">engine/Source/Core/IndexDatatype.js 122</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L122">engine/Source/Core/IndexDatatype.js 122</a>
 </div>
 
 
@@ -574,7 +574,7 @@ or <code>Uint32Array</code> depending on the number of vertices.
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L150">engine/Source/Core/IndexDatatype.js 150</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L150">engine/Source/Core/IndexDatatype.js 150</a>
 </div>
 
 
@@ -779,7 +779,7 @@ or <code>Uint32Array</code> depending on the number of vertices.
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L74">engine/Source/Core/IndexDatatype.js 74</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L74">engine/Source/Core/IndexDatatype.js 74</a>
 </div>
 
 
@@ -914,7 +914,7 @@ or <code>Uint32Array</code> depending on the number of vertices.
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L181">engine/Source/Core/IndexDatatype.js 181</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L181">engine/Source/Core/IndexDatatype.js 181</a>
 </div>
 
 
@@ -1055,7 +1055,7 @@ or <code>Uint32Array</code> depending on the number of vertices.
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L51">engine/Source/Core/IndexDatatype.js 51</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L51">engine/Source/Core/IndexDatatype.js 51</a>
 </div>
 
 
@@ -1196,7 +1196,7 @@ const size = Cesium.IndexDatatype.getSizeInBytes(Cesium.IndexDatatype.UNSIGNED_S
         
 
 <div class="source-link rightLinks">
-    <a href="https://github.com/CesiumGS/cesium/blob/1.110/packages/engine/Source/Core/IndexDatatype.js#L102">engine/Source/Core/IndexDatatype.js 102</a>
+    <a href="https://github.com/CesiumGS/cesium/blob/1.111/packages/engine/Source/Core/IndexDatatype.js#L102">engine/Source/Core/IndexDatatype.js 102</a>
 </div>
 
 

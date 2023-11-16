@@ -7568,15 +7568,14 @@ export class GoogleEarthEnterpriseTerrainProvider {
 /**
  * Default settings for accessing the Google Maps API.
  * <br/>
- * An API key is only required if you are using any Google Maps APIs, such as {@link createGooglePhotorealistic3DTileset}.
- * A default key is provided for evaluation purposes only.
+ * An API key is only required if you are directly using any Google Maps APIs, such as through {@link createGooglePhotorealistic3DTileset}.
  * Follow instructions for managing API keys for the Google Maps Platform at {@link https://developers.google.com/maps/documentation/embed/get-api-key}
  */
 export namespace GoogleMaps {
     /**
      * Gets or sets the default Google Maps API key.
      */
-    var defaultApiKey: string;
+    var defaultApiKey: undefined | string;
     /**
      * Gets or sets the default Google Map Tiles API endpoint.
      */
@@ -26115,6 +26114,7 @@ export namespace BingMapsImageryProvider {
      * @property [tileProtocol] - The protocol to use when loading tiles, e.g. 'http' or 'https'.
      *        By default, tiles are loaded using the same protocol as the page.
      * @property [mapStyle = BingMapsStyle.AERIAL] - The type of Bing Maps imagery to load.
+     * @property [mapLayer] - Additional display layer options as defined on {@link https://learn.microsoft.com/en-us/bingmaps/rest-services/imagery/get-imagery-metadata#template-parameters}
      * @property [culture = ''] - The culture to use when requesting Bing Maps imagery. Not
      *        all cultures are supported. See {@link http://msdn.microsoft.com/en-us/library/hh441729.aspx}
      *        for information on the supported cultures.
@@ -26128,6 +26128,7 @@ export namespace BingMapsImageryProvider {
         key?: string;
         tileProtocol?: string;
         mapStyle?: BingMapsStyle;
+        mapLayer?: string;
         culture?: string;
         ellipsoid?: Ellipsoid;
         tileDiscardPolicy?: TileDiscardPolicy;
@@ -26166,6 +26167,10 @@ export class BingMapsImageryProvider {
      * Gets the type of Bing Maps imagery to load.
      */
     readonly mapStyle: BingMapsStyle;
+    /**
+     * Gets the additional map layer options as defined in {@link https://learn.microsoft.com/en-us/bingmaps/rest-services/imagery/get-imagery-metadata#template-parameters}/
+     */
+    readonly mapLayer: string;
     /**
      * The culture to use when requesting Bing Maps imagery. Not
      * all cultures are supported. See {@link http://msdn.microsoft.com/en-us/library/hh441729.aspx}
@@ -42241,6 +42246,16 @@ export function createElevationBandMaterial(options: {
 /**
  * Creates a {@link Cesium3DTileset} instance for the Google Photorealistic 3D Tiles tileset.
  * @example
+ * const viewer = new Cesium.Viewer("cesiumContainer");
+ *
+ * try {
+ *   const tileset = await Cesium.createGooglePhotorealistic3DTileset();
+ *   viewer.scene.primitives.add(tileset));
+ * } catch (error) {
+ *   console.log(`Error creating tileset: ${error}`);
+ * }
+ * @example
+ * // Use your own Google Maps API key
  * Cesium.GoogleMaps.defaultApiKey = "your-api-key";
  *
  * const viewer = new Cesium.Viewer("cesiumContainer");

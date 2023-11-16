@@ -1,6 +1,6 @@
 // This file is automatically rebuilt by the Cesium build process.
-const hello_world_index = 110;
-const VERSION = '1.110';
+const hello_world_index = 111;
+const VERSION = '1.111';
 const gallery_demos = [{
   "name": "3D Models",
   "isNew": false,
@@ -9,6 +9,10 @@ const gallery_demos = [{
   "name": "3D Models Coloring",
   "isNew": false,
   "img": "3D Models Coloring.jpg"
+}, {
+  "name": "3D Tiles 1.1 Photogrammetry",
+  "isNew": true,
+  "img": "3D Tiles 1.1 Photogrammetry.jpg"
 }, {
   "name": "3D Tiles Adjust Height",
   "isNew": false,
